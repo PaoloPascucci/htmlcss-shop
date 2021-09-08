@@ -9,13 +9,11 @@
     height: 600px;
     width: 70%;
     margin: 2rem auto;
-    ;
 }
 
 .prodotto {
-    position: absolute;
-    top: 25px;
-    left: 25px;
+    position: relative;
+    margin-right: 1rem;
     float: left;
     height: 350px;
     width: 250px;
@@ -83,6 +81,28 @@
 .text {
     margin-left: 1.5rem;
     position: absolute;
-    bottom: 170px;
+    bottom: 190px;
     left: 0;
+    float: left;
+}
+
+.prodottodue {
+    position: relative;
+    float: left;
+    height: 350px;
+    width: 250px;
+    background-image: url(./img/2.webp);
+    background-size: cover;
+}
+
+.prodottodue:hover {
+    background-image: url(./img/2b.webp);
+}
+
+.text2 {
+    margin-left: 1.5rem;
+    position: absolute;
+    bottom: 190px;
+    left: 250px;
+    float: left;
 }
