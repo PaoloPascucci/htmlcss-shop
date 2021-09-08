@@ -82,11 +82,12 @@
     margin-left: 1.5rem;
     position: absolute;
     bottom: 190px;
-    left: 0;
+    left: -23px;
     float: left;
 }
 
 .prodottodue {
+    margin-right: 1rem;
     position: relative;
     float: left;
     height: 350px;
@@ -104,5 +105,26 @@
     position: absolute;
     bottom: 190px;
     left: 250px;
+    float: left;
+}
+
+.prodotto3 {
+    position: relative;
+    float: left;
+    height: 350px;
+    width: 250px;
+    background-image: url(./img/3.webp);
+    background-size: cover;
+}
+
+.prodotto3:hover {
+    background-image: url(./img/3b.webp);
+}
+
+.text3 {
+    margin-left: 1.5rem;
+    position: absolute;
+    bottom: 190px;
+    left: 510px;
     float: left;
 }
