@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 600px;
+    width: 70%;
+    margin: 2rem auto;
+    ;
+}
+
+.prodotto {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    float: left;
+    height: 350px;
+    width: 250px;
+    background-image: url(./img/1.webp);
+    background-size: cover;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.levi {
+    height: 350px;
+    width: auto;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    float: left;
+    background-color: red;
+    color: white;
+}
+
+.green {
+    position: absolute;
+    bottom: 10px;
+    left: 35.4px;
+    color: white;
+    background-color: green;
+    float: left;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 1rem;
+}
+
+.prodotto:hover {
+    background-image: url(./img/1b.webp);
+}
+
+.Prezzo, .Barra {
+    font-size: .9rem;
+}
+
+.Prezzo, .Barra, .B {
+    font-weight: bold;
+}
+
+.Prezzo {
+    color: red;
+}
+
+.Barra {
+    text-decoration: line-through;
+}
+
+.text {
+    margin-left: 1.5rem;
+    position: absolute;
+    bottom: 170px;
+    left: 0;
+}
